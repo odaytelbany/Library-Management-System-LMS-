@@ -1,0 +1,34 @@
+<diagram program="umletino" version="14.4.0-SNAPSHOT"><zoom_level>10</zoom_level><help_text>- books dictionary initializationSpace for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>300</x><y>50</y><w>180</w><h>150</h></coordinates><panel_attributes>Users
+--
+add_user()
+
+delete_user()
+
+update_user()
+
+show_user()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>590</x><y>50</y><w>180</w><h>150</h></coordinates><panel_attributes>Books
+--
+add_book()
+delete_book()
+update_book()
+Issue_book()
+return_book()
+show_books()
+show_Issued_books()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>440</x><y>330</y><w>190</w><h>160</h></coordinates><panel_attributes>LMS
+--
++ __init__()
+
+* open the book file
+* open the book file
+
+- books dictionary initialization
+- Users dictionary initialization</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>160</x><y>350</y><w>120</w><h>120</h></coordinates><panel_attributes>Run
+--
+
+option screen:
+
+1-  Admin
+2- Users</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>760</x><y>400</y><w>140</w><h>70</h></coordinates><panel_attributes>Data File:
+- Books file
+- Users file
+bg=yellow</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>370</x><y>190</y><w>150</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;10;90;130;90;130;140</additional_attributes></element><element><id>Relation</id><coordinates><x>560</x><y>190</y><w>140</w><h>160</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>120;10;120;90;10;90;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>210</x><y>460</y><w>340</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>320;30;320;90;10;90;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>550</x><y>460</y><w>300</w><h>110</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>280;10;280;90;10;90;10;30</additional_attributes></element></diagram>
